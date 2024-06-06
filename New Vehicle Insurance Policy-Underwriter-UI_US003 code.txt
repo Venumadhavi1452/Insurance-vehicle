@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>user login</title>
+<style>
+h1,h2{color:purple;}
+h1,h2,p{text-align:center;}
+form{text-align:center;}
+</style>
+</head>
+<body>
+<h1>QYV Insurance Online</h1>
+<hr/>
+<h2>UNDERWRITER VEHICLE INSURANCE</h2>
+<form>
+<p>Vehicle no:
+<input type="number" name="number" value="" required/></p>
+<p>Vehicle type:
+<select>
+<option value="2wheeler">2Wheeler</option>
+<option value="4wheeler">4Wheeler</option>
+</select>
+<p>Customer Name:
+<input type="text" name="name" value="" required/></p>
+<p>Engine no:
+<input type="number" name="number" value="" required/></p>
+<p>Chasis no:
+<input type="number" name="number" value="" required/></p>
+<p>Phone no:
+<input type="number" name="number" value="" required/></p>
+<p>Premium Amnt:
+<input type="number" name="number" value="" required/></p>
+<p>Type:
+<select>
+<option value="Full Insurance">Full Insurance</option>
+<option value="Third party">Third party</option>
+</select>
+<p>From Date:
+<input type="date" name="date" value="" required/></p>
+<p>To Date:
+<input type="date" name="date" value="" required/></p>
+<p>Underwriter ID:
+<input type="number" name="number" value="ID" required/></p>
+<p>
+<button type="Submit"> Register</button></p>
+</form>
+</body>
+</html>
